@@ -21,7 +21,7 @@ python -m venv .venv
 
 ## 3. Install Python Dependencies
 ```powershell
-pip install -r unichunk\requirements.txt
+python -m pip install -r unichunk\requirements.txt
 ```
 
 ---
@@ -58,7 +58,7 @@ pip install -r unichunk\requirements.txt
 
 ## 7. Run the Streamlit App
 ```powershell
-streamlit run unichunk\frontend\app.py
+python -m streamlit run unichunk\frontend\app.py
 ```
 - Open your browser to: http://localhost:8501
 

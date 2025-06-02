@@ -24,7 +24,7 @@ sudo apt-get update && sudo apt-get install -y poppler-utils
 
 From the project root:
 ```bash
-pip install -r unichunk/requirements.txt
+python -m pip install -r unichunk/requirements.txt
 ```
 
 ---
@@ -42,7 +42,7 @@ GEMINI_API_KEY=your_actual_gemini_api_key_here
 
 From the project root:
 ```bash
-streamlit run unichunk/frontend/app.py --server.headless true --server.port 8501
+python -m streamlit run unichunk/frontend/app.py --server.headless true --server.port 8501
 ```
 
 Open your browser and go to:
