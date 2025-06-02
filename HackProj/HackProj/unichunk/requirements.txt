@@ -1,0 +1,14 @@
+# All required packages for UniChunk system
+# Core
+PyMuPDF
+pdfplumber
+pdf2image
+pytesseract
+opencv-python
+Pillow
+sentence-transformers
+transformers
+faiss-cpu
+chromadb
+tinydb
+streamlit
